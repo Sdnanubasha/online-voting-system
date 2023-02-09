@@ -1,57 +1,11 @@
 <html>
     <head>
         <title>Registration</title>
-        <style>
-            body{
-    background-color: #c5d5cb;
-    color: black;
-    text-align: center;
-}
-input{
-    padding: 10px;
-    border-radius: 5px;
-}
-#headersection{
-    background-color:#9fa8a3;
-    color: black;
-}
-#headersection{
-    font-style: italic;
-}
-#address{
-    width: 25%;
-}
-#clgID{
-    width: 25%;
-}
-#bodysection h2{
-    font-style: oblique;
-}
-#button{
-    padding: 5px;
-    border-radius: 5px;
-    background-color: blue;
-    color: white;
-}
-#img{
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid white;
-    width: 25%;
-}
-#role{
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid white;
-    width: 25%;
-}
-        </style>
-        <!--<link rel="stylesheet" href="/css/stylesheet2.css">-->
+        <link rel="stylesheet" href="../css/registration.css">
     </head>
     <body>
-        <div id="headersection">
-        <h1>ONINE VOTING SYSTEM FOR COLLEGES AND UNIVERSITIES</h1>
-        <hr>
+        <div class="headersection">
+        <h1 class="heading">ONINE VOTING SYSTEM FOR COLLEGES AND UNIVERSITIES</h1>
         </div>
         <div id="bodysection">
         <h2>REGISTRATION</h2>
@@ -62,22 +16,18 @@ input{
             <input type="password" name="cpassword" placeholder="confirm password"/><br><br>
             <input id="clgID" type="text" name="clgID" placeholder="college ID"><br><br>
             <input id="address" type="text" name="address" placeholder="Address"/><br><br>
-            <center>
             <div id="img">
-            Upload image :<input type="file" name="photo"/><br>
+            Upload image :<input class="pic2" type="file" name="photo"/><br>
             </div>
-            </center><br>
-            <center>
             <div id="role">
-            Select Role :<select name="role">
+            Select Role :<select class="role2" name="role">
                 <option value="1">Voting</option>
                 <option value="2">Group</option>
             </select><br><br>
-            </div>
-            </center><br><br>
-            <button id="button">Register</button>
-        </form><br><br>
-        Already registered?<a href="../index.html">Login here</a>
+            </div><br><br>
+            <button id="register">Register</button>
+        </form><br>
+        <div  class="new">Already registered?<a href="../index.html">Login here</a></div>
         </div>
     </body>
 </html>

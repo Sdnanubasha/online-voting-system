@@ -6,6 +6,10 @@ body{
     color:black;
     
 }
+*{
+    border: 0;
+    margin: 0;
+}
 #headersection{
     background-color: #9fa8a3;
     color: black;

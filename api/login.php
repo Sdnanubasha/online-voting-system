@@ -7,7 +7,7 @@
     $password = $_POST['password'];
     $role = $_POST['role'];
 
-    $check = mysqli_query ($connect,"SELECT * FROM user WHERE voterID='$voterID' AND clgID='$clgID' AND password='$password' AND role='$role' ");
+    $check = mysqli_query ($connect,"SELECT * FROM user WHERE mobile='$voterID' AND collegeID='$clgID' AND password='$password' AND role='$role' ");
 
     if(mysqli_num_rows($check)>0)
     {
