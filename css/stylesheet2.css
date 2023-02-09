@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+#headersection{
+    background-color:blanchedalmond;
+    color: black;
+}
+#headersection{
+    font-style: italic;
+}
+#address{
+    width: 25%;
+}
+#bodysection h2{
+    font-style: oblique;
+}
+#button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+#img{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 25%;
+}
+#role{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 25%;
+}

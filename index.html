@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Online voting system</title>
+        <!--<link rel="stylesheet" href="css/stylesheet.css">-->
+        <style>
+            body{
+    background-color:#c5d5cb;
+    text-align: center;
+    color:black;
+    
+}
+#headersection{
+    background-color: #9fa8a3;
+    color:black;
+}
+#headersection{
+    font-style: arial;
+}
+#bodysection h2{
+    font-style: oblique;
+    color:black;
+}
+#bodysection{
+    color: black;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    color:black;
+}
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    color:black;
+}
+#button{
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+        </style>
+    </head>
+    <body>
+        <div id="headersection">
+        <h1>ONLINE VOTING SYSTEM FOR COLLEGES AND UNIVERSITIES</h1>
+        <hr>
+        </div>
+        <div id="bodysection">
+            <form action="api/login.php" method="post">
+            
+                <h2>LOGIN</h2>
+                <input type="text" name="voterID" placeholder="enter voterID"/><br><br>
+                <input type="text" name="clgID" placeholder="college ID"><br><br>
+                <input type="password" name="password" placeholder="enter password"><br><br>
+
+                <select id="dropbox" name="role">
+                    <option value="1">Voting</option>
+                    <option value="2">Group</option>
+                </select><br><br>
+                <button id="button">Login</button><br><br>
+                
+            </form>
+        </div>
+        <div id="new">
+            New User?<a href="routs/registration.html">Register here</a>
+            </div>
+    </body>
+</html>
